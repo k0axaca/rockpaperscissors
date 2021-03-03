@@ -52,7 +52,7 @@ elif computer_choose == 2:
 if rps_input == computer_choose:
   print("It's a tie")
 # invalid number
-elif rps_input >= 3 or rps_input < 0
+elif rps_input >= 3 or rps_input < 0:
   print("You've typed an invalid number. You lose.")
 # rps = rock, comp = paper
 elif rps_input == 0 and computer_choose ==1:
